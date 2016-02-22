@@ -1,71 +1,58 @@
-html {
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-/* Navigation Section */
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin-top: 15px;
-	margin-left: 325px;
-	padding: 0px 15px;
-	position: fixed;
-	width: 100%;
-	z-index: 9999;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700italic,700);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    margin: 0;
+    padding: 0;
 }
 
-.top-navigation .links {
-	float: right;
-	font-family: 'Roboto', sans-serif;
-	color: #838994;
-	font-size: 16px;
-	letter-spacing: 0.03em;
-	margin-top: 15px;
-}
-.top-navigation .links li {
-	display: inline-block;
-	margin-right: 25px; 
-}
-.top-navigation .links > .active {
-	color: #4c5058;
-	font-weight: 500;
-}
-.top-navigation .links li:hover {
-	cursor: pointer;
-	color: #333333;
-}	
-.introduction {
-	background-image: url('/images/first-background copy.jpg');
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 45.938rem;
-	overflow: auto;
-}
-button {
-	text-shadow: none;
-	border-style: none;
-	border-radius: 4px;
-	padding: 1rem 1.5rem;
-	background-color: orange;
-	display: block;
-	margin: 0 auto;
-	margin-top: 10px;
-	color: white;
-	width: ;
-	font-size: ;
-}
-.cases .devices {
-	width: 33.3333333%;
-	display: inline-block;
-	/* styles to assist with debugging */
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+/* Text */
+
+h1 {
+    margin: 0 0 1em 0;
+    font-size: 2.8em;
+    font-weight: 700;
 }
 
+h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
 
+h3 { 
+    margin: 0 0 .5em 0;
+    font-size: 1.3em; 
+    font-weight: 700;
+}
 
+h4 {
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+}
 
+p { 
+    margin: 0 0 1em 0;
+}    
+
+a {
+    color: #007eff;
+}
+
+a: visited {
+    color: #65b1ff;
+}
+
+/* header */
+
+header {
+    height: 430px;
+    background: #cf0004 url(../images/Wallace_banner_1200.jpg) no-repeat center bottom;
+    position: relative;
+    
+}
