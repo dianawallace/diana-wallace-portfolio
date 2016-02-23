@@ -48,11 +48,133 @@ a: visited {
     color: #65b1ff;
 }
 
+a.btn {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 15px;
+    transition: background-color .5s;
+}
+a.btn:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
 /* header */
 
 header {
     height: 430px;
     background: #cf0004 url(../images/Wallace_banner_1200.jpg) no-repeat center bottom;
     position: relative;
-    
 }
+
+header a.logo {
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 66px;
+    background: url(../images/Wallace-logo.svg) no-repeat 0 0;
+    background-size: contain;
+    top: 15px;
+    left: 20px;
+}
+
+header a.logo span {
+    display: none;
+}
+
+header div.developer {
+    position: absolute;
+    width: 42%;
+    top: 130px;
+    left: 55%;
+}
+
+header div.developer h1 {
+    line-height: 1em;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+/* navigation */
+
+.navigation {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* section all */
+
+section {
+    padding: 0 30px;
+}
+
+/* section overview */
+
+.overview h2 { 
+    text-align: center;
+    padding-top: 75px;
+}
+
+.overview p {
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* section projects */
+
+section.projects h2 {
+    text-align: center;
+    padding-top: 75px;
+}
+
+section.projects {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+section.projects aside {
+    width: 33%;
+    float: left;
+    text-align: center
+}
+
+section.projects .content {
+    margin: 15px;
+    background: no-repeat center top;
+    background-size: 75px 75px;
+    padding-top: 85px;
+}
+
+section.projects aside h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+section.projects aside h3 a:hover {
+    text-decoration: underline;
+}
+
+section.projects aside .content.new-york {
+    background-image: url(../images/icon_star.svg);
+}
+section.projects aside .content.about-me {
+    background-image: url(../images/icon_marker.svg);
+}
+section.projects aside .content.karma-page {
+    background-image: url(../images/icon_gear.svg);
+}
+
+
+

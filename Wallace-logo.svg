@@ -13,17 +13,11 @@
 			L400.7,474.3z"/>
 	</g>
 </g>
-<g id="Layer_3">
-	<rect x="-69" y="-33" fill="#3D3D3D" width="860" height="804"/>
-</g>
 <g id="Layer_2">
-	<text transform="matrix(1 0 0 1 0.9089 437.3935)" fill="#FCFCFC" font-family="'MonotypeCorsiva'" font-size="559.3309">D</text>
-	
-		<text transform="matrix(0.9278 -0.3731 0.3731 0.9278 267.608 519.5482)" fill="#FCFCFC" font-family="'MonotypeCorsiva'" font-size="469.938">W</text>
-	<text transform="matrix(1 0 0 1 125.3848 529.8204)" fill="#FCFCFC" font-family="'DaunPenh'" font-size="158.8537">diana wallace </text>
-	
-		<text transform="matrix(1 -5.634146e-003 5.634146e-003 1 125.3849 639.7528)" fill="#FCFCFC" font-family="'DaunPenh'" font-size="62.9284">illustrator</text>
-	
-		<text transform="matrix(1 8.610621e-003 -8.610621e-003 1 473.1539 639.7527)" fill="#FCFCFC" font-family="'DaunPenh'" font-size="62.9284">web developer</text>
+	<text transform="matrix(1 0 0 1 0.9089 437.3935)" font-family="'MonotypeCorsiva'" font-size="559.3309">D</text>
+	<text transform="matrix(0.9278 -0.3731 0.3731 0.9278 267.608 519.5482)" font-family="'MonotypeCorsiva'" font-size="469.938">W</text>
+	<text transform="matrix(1 0 0 1 125.3848 529.8204)" font-family="'DaunPenh'" font-size="158.8537">diana wallace </text>
+	<text transform="matrix(1 -5.634146e-003 5.634146e-003 1 125.3849 639.7528)" font-family="'DaunPenh'" font-size="62.9284">illustrator</text>
+	<text transform="matrix(1 8.610621e-003 -8.610621e-003 1 473.1539 639.7527)" font-family="'DaunPenh'" font-size="62.9284">web developer</text>
 </g>
 </svg>

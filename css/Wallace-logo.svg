@@ -13,8 +13,8 @@
 			L400.7,474.3z"/>
 	</g>
 </g>
-<g id="Layer_3">
-	<rect x="-69" y="-33" fill="#3D3D3D" width="860" height="804"/>
+<g id="Layer_3" display="none">
+	<rect x="-69" y="-33" display="inline" fill="#3D3D3D" width="860" height="804"/>
 </g>
 <g id="Layer_2">
 	<text transform="matrix(1 0 0 1 0.9089 437.3935)" fill="#FCFCFC" font-family="'MonotypeCorsiva'" font-size="559.3309">D</text>
