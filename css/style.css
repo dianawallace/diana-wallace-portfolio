@@ -69,13 +69,10 @@ header {
 }
 
 header a.logo {
-    z-index: 1;
     position: absolute;
-    display: block;
-    width: 160px;
-    height: 66px;
-    background: url(../images/Wallace-logo.svg) no-repeat 0 0;
-    background-size: contain;
+    width: 184px;
+    height: 86px;
+    background: url(../images/wallace-logo.svg) no-repeat 0 0;
     top: 15px;
     left: 20px;
 }
@@ -91,7 +88,13 @@ header div.developer {
     left: 55%;
 }
 
-header div.developer h1 {
+#page-title {
+    line-height: 1em;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+#page-subtitle {
     line-height: 1em;
     margin: 0 0 30px 0;
     color: #fff;
@@ -101,10 +104,9 @@ header div.developer h1 {
 
 .navigation {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 50px 0 0 0;
-    width: 100%;
+    top: 50px;
+    left: 34%;
+    width: 50%;
 }
 
 .navigation:: {
@@ -114,18 +116,19 @@ header div.developer h1 {
 }
 
 .navigation ul {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
 
+.navigation li {
+    list-style-type: none;
+}
+
 .navigation li a {
-    display: inline-block;
     color: #fff;
-    padding: 10px 20px;
+    margin-right: 30px;
     text-decoration: none;
-    width: 125px;
-    position: relative;
+    padding: 10px;
 }
 
 .navigation li a:visited { 
