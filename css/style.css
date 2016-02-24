@@ -154,6 +154,12 @@ section {
     padding: 0 30px;
 }
 
+section::after { 
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* section overview */
 
 .overview h2 { 
@@ -210,6 +216,26 @@ section.projects aside .content.about-me {
 section.projects aside .content.karma-page {
     background-image: url(../images/icon_gear.svg);
 }
+
+/* section portfolio */
+
+section.blog-posts  {
+    background-color: #cc6633;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+section.blog-posts article {
+    padding: 0 20px 0 515px;
+    background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
+    min-height: 220px;
+}
+
+
+
+
+
 
 
 
