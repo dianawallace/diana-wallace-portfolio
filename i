@@ -1,2 +1,0 @@
-<!DocType HTML>
-

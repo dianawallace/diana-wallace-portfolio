@@ -217,10 +217,10 @@ section.projects aside .content.karma-page {
     background-image: url(../images/icon_gear.svg);
 }
 
-/* section portfolio */
+/* section blog posts */
 
 section.blog-posts  {
-    background-color: #cc6633;
+    background-color: #D00308;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
@@ -228,11 +228,76 @@ section.blog-posts  {
 
 section.blog-posts article {
     padding: 0 20px 0 515px;
-    background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
+    background: url(../images/wallace_underpainting.jpg) no-repeat 0 5px;
     min-height: 220px;
 }
 
+/* section portfolio */
 
+.portfolio {
+    background-color: #F9EAD7;
+    position: relative;
+}
+
+.portfolio aside {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.portfolio aside .content {
+    padding: 30px 30px 20px 0;
+}   
+
+.portfolio aside. content img {
+    display: block;
+    margin-bottom: 15px;
+    width: 70%;
+}
+   
+.portfolio aside .content h4 {
+    margin-bottom: 0;
+} 
+
+.portfolio aside .content p {
+    margin-bottom: .5em;
+}
+
+.portfolio aside .content a {
+    display: inline-block;
+    color: #D00308;
+    font-weight: 700;
+}
+
+/* footer */
+
+.social h5 {
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons li {
+    text-align: center;
+    display: inline;
+    margin-right: 25px;
+    
+}
+
+.copy {
+    text-align: center;
+}
+
+footer {
+    font-size: 1.1em;
+    margin: 40px;
+}
+
+footer .content {
+    display: inline;
+}
 
 
 
