@@ -104,8 +104,9 @@ header div.developer {
     float: right;
     color: #fff;
     text-align: center;
-    margin-top: 350px;
+    margin-top: 330px;
     margin-right: 25px;
+    width: 30%;
 }
 
 /* navigation */
