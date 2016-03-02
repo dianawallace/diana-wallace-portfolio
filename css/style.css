@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700italic,700);
 
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -61,6 +62,11 @@ a.btn:hover {
 }
 
 /* header */
+@media screen and (min-width: 480px) {
+    header {
+        width: 100%;
+    }
+}
 
 header {
     height: 430px;
@@ -85,7 +91,7 @@ header div.developer {
     position: absolute;
     width: 42%;
     top: 130px;
-    left: 55%;
+    left: 50.5%;
 }
 
 #page-title {
@@ -104,9 +110,10 @@ header div.developer {
     float: right;
     color: #fff;
     text-align: center;
-    margin-top: 330px;
+    margin-top: 245px;
     margin-right: 25px;
     width: 30%;
+    border: 0;
 }
 
 /* navigation */
@@ -115,7 +122,7 @@ header div.developer {
     position: absolute;
     top: 50px;
     left: 34%;
-    width: 50%;
+    width: 60%;
 }
 
 .navigation:: {
@@ -313,7 +320,7 @@ footer .content {
 
 /*Media Queries */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 720px) {
 h1 { 
     font-size: 2.4em;
 }
@@ -346,18 +353,13 @@ section.blog-posts article {
     
 }}
 
-@media screen and (max-width: 825px) {
-    h1 { 
-        font-size: 2.2em; 
-}
-
 
 
 .social {
     padding: 2em 0;
     font-size: 0.5em;
 }
-}
+
 
 @media expression {
     
